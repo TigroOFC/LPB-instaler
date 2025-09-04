@@ -63,8 +63,8 @@
     100% {opacity:1; transform:translateY(0);}
   }
 
-  /* Botão pulsante */
-  .download-btn {
+  /* Botões pulsantes */
+  .btn {
     display:inline-block;
     background:#ff6f61;
     color:#fff;
@@ -76,9 +76,9 @@
     box-shadow:0 10px 25px rgba(0,0,0,0.4);
     animation: pulse 2s infinite;
     transition: 0.3s;
-    margin-bottom:50px;
+    margin:10px;
   }
-  .download-btn:hover {
+  .btn:hover {
     background:#ff3b2e;
     transform: scale(1.1);
     box-shadow:0 15px 35px rgba(0,0,0,0.6);
@@ -87,6 +87,14 @@
     0% {transform: scale(1);}
     50% {transform: scale(1.05);}
     100% {transform: scale(1);}
+  }
+
+  /* Botão ajuda com cor diferente */
+  .help-btn {
+    background:#06d6a0;
+  }
+  .help-btn:hover {
+    background:#05b887;
   }
 
   /* Passo a passo */
@@ -135,8 +143,9 @@
   <h1>LPB</h1>
   <p>Baixe agora o pacote completo da LPB e comece a criar projetos incríveis com nossa linguagem de programação!</p>
   
-  <!-- Botão que faz download e redireciona -->
-  <a class="download-btn" href="dist.zip" download onclick="window.location.href='instalado.html'">📥 Baixar LPB</a>
+  <!-- Botões -->
+  <a class="btn" href="dist.zip" download onclick="window.location.href='instalado.html'">📥 Baixar LPB</a>
+  <a class="btn help-btn" href="ajuda.html">❓ Ajuda</a>
 
   <div class="steps">
     <h2>Passo a Passo de Uso</h2>
