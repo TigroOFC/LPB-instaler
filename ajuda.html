@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LPB - Ajuda</title>
+<title>LPB - Ajuda V1.1</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 <style>
   * {margin:0; padding:0; box-sizing:border-box;}
@@ -97,7 +97,7 @@
 </head>
 <body>
 
-<h1>LPB - Ajuda</h1>
+<h1>LPB - Ajuda V1.1</h1>
 
 <h2>Como usar a LPB</h2>
 <p>1. Crie uma pasta chamada <b>pasta visual_studio_code</b> (certifique-se de ter o Visual Studio Code instalado).</p>
@@ -108,19 +108,22 @@
 <p><b>dist\LPB_interpretador.exe nome_do_arquivo.lpb</b></p>
 
 <h2>Comandos da LPB</h2>
-<p><b>variavel nome = valor</b> → cria uma variável.</p>
-<p><b>mostrar("texto")</b> → exibe uma mensagem.</p>
-<p><b>mostrar("texto:variavel")</b> → exibe o texto seguido do valor da variável.</p>
+<p><b>variavel nome = valor</b> → cria uma variável com valor numérico ou texto.</p>
+<p><b>mostrar("texto")</b> → exibe uma mensagem na tela.</p>
+<p><b>mostrar("texto" variavel)</b> → exibe texto e valor da variável.</p>
 <p><b>se condição faça ... fim</b> → bloco condicional.</p>
-<p><b>senao</b> → usado junto com <b>se</b> para condição alternativa.</p>
-<p><b>enquanto condição faça ... fim</b> → loop enquanto a condição for verdadeira.</p>
-<p><b>nome = expressão (esperar x)</b> → atribui valor e pode esperar x segundos.</p>
+<p><b>senao</b> → usado com se para condição alternativa.</p>
+<p><b>enquanto condição faça ... fim</b> → executa repetidamente enquanto a condição for verdadeira.</p>
+<p><b>nome = expressão (esperar "x")</b> → atribui valor à variável e espera x segundos (opcional).</p>
+<p><b>nome+1</b> → incrementa o valor da variável em 1 (suporta espera também).</p>
+<p><b>função nome() ... fim</b> → define uma função que pode ser chamada depois.</p>
+<p><b>nome_da_funcao()</b> → executa a função definida.</p>
 
 <h2>Dicas</h2>
 <p>- Use aspas para textos e strings.</p>
-<p>- As variáveis podem ser números ou textos.</p>
-<p>- Certifique-se de fechar blocos <b>fim</b> corretamente.</p>
+<p>- Certifique-se de fechar todos os blocos com <b>fim</b>.</p>
 <p>- Teste seu código em pequenos trechos antes de criar programas grandes.</p>
+<p>- Leia atentamente as mensagens de erro, elas ajudam a corrigir seu código rapidamente.</p>
 
 <a class="back-btn" href="index.html">⬅ Voltar ao site</a>
 
